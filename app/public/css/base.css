@@ -1,0 +1,4 @@
+body { font-family: Helvetica; }
+#wrapper { margin: 0 auto; width: 1000px; }
+h1 { font-size: 7em;  } 
+input { background-color: black; color: white; font-size: 11em; font-weight: bold; border: 0; width: 100%; }

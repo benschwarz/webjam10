@@ -1,0 +1,16 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %title streams
+    %link{:rel => "stylesheet", :href => "/css/reset.css", :type => "text/css", :media => "screen"}
+    %link{:rel => "stylesheet", :href => "/css/base.css", :type => "text/css", :media => "screen"}
+  %body
+    %section#wrapper
+      %section#intro
+        %h1 streams from
+        %form#stream{:action => '/stream', :method => "post"}
+          %fieldset
+            %input{:type => "text", :name => "tag"}
+      %section#fish Swim
+    %script{:src => "/js/jquery.js", :type => "application/javascript"}
+    %script{:src => "/js/base.js", :type => "application/javascript"}
